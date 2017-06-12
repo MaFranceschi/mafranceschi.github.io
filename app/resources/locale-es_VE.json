@@ -1,0 +1,9 @@
+{
+  "messageserror-invalidvalue":"Ha ingresado valores inv\u00e1lidos.",
+  "messageserror-requiredvalue": "Debe llenar los campos requeridos",
+  "messageserror-invalidpassword": "Contrase\u00f1a debe contener al menos 6 caracteres",
+  "messageserror-invaliduser": "Usuario no puede contener caracteres especiales",
+  "messageserror-invalidemail": "Email con formato incorrecto",
+  "messageserror-noconnection": "Error de conexion. Por favor intente más tarde",
+  "messageserror-anotherlogged": "Otro usuario ha iniciado sesión en éste computador"
+}

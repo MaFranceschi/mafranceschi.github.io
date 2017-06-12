@@ -1,0 +1,17 @@
+<div class="list-group" ng-init="ctrl.getOpenChats()">
+    <a ng-repeat="item in ctrl.chats" class="list-group-item" ng-show="ctrl.isFrom" >
+        <div class="row">
+            <div class="col-md-1 col-xs-1 col-lg-1 col-sm-1 vcenter">
+                <div class="thumbnail avatar-container">
+                    {{item.messagesUnreaded}}
+                </div>
+            </div>
+            <div class="col-md-10 col-xs-8 col-lg-10 col-sm-10 vcenter" ng-click="ctrl.goToChat(item.peerId, item.email, item.beneficiary)">
+                <h4 class="list-group-item-heading">{{item.beneficiary}} </h4>
+            </div>
+            <div class="col-md-10 col-xs-8 col-lg-10 col-sm-10 vcenter" ng-click="ctrl.closeChat()">
+                <span class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+            </div>
+        </div>
+    </a>
+</div>
