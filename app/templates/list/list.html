@@ -1,0 +1,20 @@
+<div class="list-group" ng-init="ctrl.init()">
+    
+    <a class="list-group-item" ng-class="{'active' : item.pending}" ng-show="$root.emergency.beneficiaryName != null" ng-click="ctrl.callBeneficiary()">
+
+        <div class="row">
+            <div class="col-md-1 col-xs-1 col-lg-1 col-sm-1 vcenter">
+                <div class="thumbnail avatar-container">
+                    <i class="glyphicon glyphicon-user"></i>
+                </div>
+
+            </div>
+
+            <div class="col-md-10 col-xs-8 col-lg-10 col-sm-10 vcenter">
+                <h4 class="list-group-item-heading">{{$root.emergency.beneficiaryName}}</h4>
+                <!--<div ng-show="item.pending">{{item.conversation[item.conversation.length - 1].text}}</div>-->
+            </div>
+            <button ng-click="ctrl.confirmCall()">Llamar ahora</button>
+        </div>
+    </a>
+</div>

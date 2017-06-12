@@ -1,0 +1,36 @@
+'use strict';
+
+angular.module('grupo911App', [
+    'ui.router',
+    'ngAnimate',
+    'ngCookies',
+    'ngResource',
+    'ngRoute',
+    'ngSanitize',
+    'ngDialog',
+    'ui.bootstrap',
+    'ngTouch',
+    'pascalprecht.translate',
+    '911app.routes',
+    '911app.resources',
+    '911app.directives.message',
+    '911app.controllers.chat',
+    '911app.controllers.video',
+    '911app.controllers.login',
+    '911app.controllers.list',
+    '911app.controllers.dashboard',
+    '911app.services.chat',
+    '911app.services.video',
+    '911app.services.video-call',
+    '911app.services.login',
+    '911app.services.list',
+    '911app.services.validate',
+    '911app.services.database',
+    '911app.services.logger',
+    '911app.services.dashboard',
+    '911app.services.message',
+    '911app.services.peerjs',
+    '911app.services.file',
+    '911app.services.xml'
+
+] );

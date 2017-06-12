@@ -1,0 +1,133 @@
+.button-bar
+{
+  border-radius: 0.5em;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+.chat-bubble
+{
+    border: 0 solid #3CA2E0;
+    padding: 0.7em;
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+
+.chat-history
+{
+  background-color: white;
+  border: 1px solid #BDBDBD;
+  height: 20em;
+  margin: 2em 0;
+  overflow-x: auto;
+  padding: 0.3em;
+  width: 100%;
+  z-index: 100;
+}
+
+.chat-right-bubble
+{
+    background-color: rgba(0,69,190, 0.2);
+    border-radius: .5em 0 0 .5em;
+    box-shadow: 2px 2px 5px #00B6E9;
+}
+
+
+.chat-left-bubble
+{
+    background-color: rgba(0,182,233, 0.2);
+    border-radius: 0 .5em .5em 0;
+    box-shadow: 2px 2px 5px #0045BE;
+}
+
+
+
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.image-container
+{
+  align-items: center;
+  background-color: white;
+  border: 5px solid #eee;
+  border-radius: 0.5em;
+  display: flex;
+  height: 150px;
+  justify-content: center;
+  cursor: pointer;
+  width: 200px;
+}
+
+.image-thumbnail
+{
+  width: 70%;
+}
+
+.message-box
+{
+  height: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+.title-bar
+{
+  border-radius: 0.5em;
+  margin: 0.5em;
+  padding: 1em;
+}
+
+input.upload
+{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  opacity: 0;
+}
+
+.video-container
+{
+  border: 1px solid #EEE;
+  border-radius: 0.5em;
+  max-width: 30em;
+  position: relative;
+  width: 100%;
+}
+
+.video-capture
+{
+  height: 100%;
+  width: 100%;
+}
+
+.local-video-container
+{
+    max-height: 30%;
+    max-width: 30%;
+    opacity: 1;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    transition: opacity 1s;
+    z-index: 100;
+}
+
