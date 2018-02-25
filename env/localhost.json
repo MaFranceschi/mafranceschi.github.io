@@ -1,9 +1,0 @@
-{
-    "ID": 1,
-    "NAME": "Pedro Perez Prueba",
-    "MPPS": 1,
-    "USERNAME":"pperez",
-    "PASSWORD":"",
-    "URL": "http://localhost:8080/gruponueveonce/rest"
-}
-
